@@ -75,7 +75,7 @@ function AboutUs() {
           <div className='service-card'>
             <div className='service-card-header'>
               <div className='card-heading'>
-                <h3>Batteries</h3>
+                <h3>Energy Storage Solutions</h3>
               </div>
             </div>
             <div className='card-img-wrap'>
@@ -97,7 +97,7 @@ function AboutUs() {
           <div className='service-card'>
             <div className='service-card-header'>
               <div className='card-heading'>
-                <h3>Macrogrid Development</h3>
+                <h3>Microgrid Development</h3>
               </div>
             </div>
             <div className='card-img-wrap'>
@@ -139,7 +139,7 @@ function AboutUs() {
           <div className='service-card'>
             <div className='service-card-header'>
               <div className='card-heading'>
-                <h3>Hacking into servers with a tablet</h3>
+                <h3>Energy Management and and Monitoring</h3>
               </div>
             </div>
             <div className='card-img-wrap'>
