@@ -70,7 +70,7 @@ function ContactUs() {
                         name='fullname'
                         type='text'
                         className='input-field'
-                        placeholder='Full Name'
+                        placeholder='Full Name (required)'
                         onChange={onChangeHandler}
                         value={userData.fullname}
                       />
@@ -80,7 +80,7 @@ function ContactUs() {
                         name='email'
                         type='email'
                         className='input-field'
-                        placeholder='Email'
+                        placeholder='Email (required)'
                         onChange={onChangeHandler}
                         value={userData.email}
                       />
@@ -90,7 +90,7 @@ function ContactUs() {
                         name='phonenumber'
                         type='text'
                         className='input-field'
-                        placeholder='Phone Number'
+                        placeholder='Phone Number (required)'
                         onChange={onChangeHandler}
                         value={userData.phonenumber}
                       />
@@ -99,7 +99,7 @@ function ContactUs() {
                       <textarea
                         name='message'
                         className='input-field message-box'
-                        placeholder='Message'
+                        placeholder='Message (required)'
                         onChange={onChangeHandler}
                         value={userData.message}
                       ></textarea>
@@ -112,6 +112,7 @@ function ContactUs() {
                         onChange={onFileChangeHandler}
                         ref={fileInputRef}
                       />
+                      <span>(optional)</span>
                     </div>
                     <div className='form-input'>
                       <input
