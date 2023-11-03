@@ -2,7 +2,7 @@ const crypto = require('crypto');
 const mongoose = require('mongoose');
 const validator = require('validator');
 const bcrypt = require('bcrypt');
-const { sequelize } = require('.');
+//const { sequelize } = require('.');
 
 // export default db;
 module.exports = (sequelize, Sequelize) => {
