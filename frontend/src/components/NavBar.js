@@ -29,7 +29,7 @@ function NavBar() {
               {role === 'admin' ? (
                 <Link to='/admin'>Portal</Link>
               ) : (
-                <Link to='/about-us'>Contact Us</Link>
+                <Link to='/contact-us'>Contact Us</Link>
               )}
             </li>
           </ul>

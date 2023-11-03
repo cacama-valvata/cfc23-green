@@ -24,7 +24,7 @@ function Footer() {
               <Link to='/der-data'>DER Data</Link>
             </li>
             <li>
-              <Link to='/'>Contact Us</Link>
+              <Link to='/contact-us'>Contact Us</Link>
             </li>
           </ul>
         </div>
