@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <div className='navbar'>
       <header>
-        <a href='https://cyberforce.energy.gov/cyberforce-competition/scenario/'>
+        <a href='/'>
           <img
             className='logo'
             src={require('../assets/img/DER8-9.png')}

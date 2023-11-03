@@ -8,10 +8,6 @@ function Home() {
         <p>Part of JakaaGen Inc</p>
       </div>
 
-      <div className='description'>
-        <p>Don't DM CFC staff in Discord :)</p>
-      </div>
-
       <div className='der-data'>
         <h2>DER Data Display</h2>
         <p>
