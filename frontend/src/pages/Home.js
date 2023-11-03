@@ -8,6 +8,15 @@ function Home() {
         <p>Part of JakaaGen Inc</p>
       </div>
 
+       <div className='description'>
+         <p>
+           DER8.9 is a leading utility company specializing in Distributed 
+           Energy Resources (DER). We are dedicated to revolutionizing the
+           energy landscape by harnessing the power of renewable energy and
+           advanced technology. 
+         </p>
+       </div>
+
       <div className='der-data'>
         <h2>DER Data Display</h2>
         <p>
