@@ -3,7 +3,7 @@ import '../styles/Home.css';
 function Home() {
   return (
     <div className='content-container-home'>
-      <div>
+      <div className='home-header'>
         <h1>Welcome to DER8.9</h1>
         <p>Part of JakaaGen Inc</p>
       </div>
