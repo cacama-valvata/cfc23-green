@@ -31,14 +31,6 @@ const AdminSideBar = () => {
               Registered Users
             </button>
           </li>
-          <li>
-            <button
-              onClick={() => setActiveTab('settings')}
-              className={activeTab === 'settings' ? 'active' : ''}
-            >
-              Settings
-            </button>
-          </li>
         </ul>
       </div>
     </div>
