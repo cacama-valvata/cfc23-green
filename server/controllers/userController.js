@@ -4,9 +4,22 @@ const Battery = db.batteryTemp;
 const Op = db.Sequelize.Op;
 
 exports.getSQL = catchAsync(async (req, res, next) => {
-  res.status(500).json({
+  res.status(200).json({
     data: {
-       temp: [{battery_temp: 70}]
+       data: [
+         {avg_usage: 0, avg_pwr_gen: 0},
+         {avg_usage: 0, avg_pwr_gen: 0},
+         {avg_usage: 0, avg_pwr_gen: 0},
+         {avg_usage: 0, avg_pwr_gen: 0},
+         {avg_usage: 0, avg_pwr_gen: 0},
+         {avg_usage: 0, avg_pwr_gen: 0},
+         {avg_usage: 0, avg_pwr_gen: 0},
+         {avg_usage: 0, avg_pwr_gen: 0},
+         {avg_usage: 40, avg_pwr_gen: 96.4},
+         {avg_usage: 47, avg_pwr_gen: 91.2},
+         {avg_usage: 53, avg_pwr_gen: 90.5},
+         {avg_usage: 0, avg_pwr_gen: 0}
+       ]
      }
    });
 });
