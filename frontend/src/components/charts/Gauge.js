@@ -7,7 +7,7 @@ function TempGauge() {
   useEffect(() => {
     const fetchData = () => {
       axios
-        .get('/api/users/der-data/sql')
+        .get('/api/users/der-data/bat')
         .then((res) => {
           const icsData = res.data.data.temp;
 

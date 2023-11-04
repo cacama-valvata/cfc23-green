@@ -21,7 +21,7 @@ function DerData() {
             <h2>Charts Examples</h2>
           </div>
           <div className='box'>
-            <h3>Battery Efficiency</h3>
+            <h3>Inverter Efficiency</h3>
             <EffGauge />
           </div>
           <div className='box'>

@@ -10,8 +10,9 @@ router.route('/login').post(authController.login);
 router.route('/forgotPassword/:token').post(authController.forgotPassword);
 router.route('/resetpassword/').patch(authController.resetPassword);
 
-// router.route('/der-data/sol').get(userController.getAllSolarData);
+//router.route('/der-data/sol').get(userController.getAllSolarData);
 
-// router.route('/der-data/sql').get(userController.getSQL);
+router.route('/der-data/sql').get(userController.getSQL);
+router.route('/der-data/bat').get(userController.getBat);
 
 module.exports = router;
