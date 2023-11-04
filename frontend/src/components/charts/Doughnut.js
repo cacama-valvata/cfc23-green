@@ -27,8 +27,14 @@ function DoughnutChart() {
       // };
     }, []);
 
+    const labels = [
+      'Sep',
+      'Oct',
+      'Nov',
+    ];
+
     const avgUsage = ({
-      labels: data.map((data) => data.month),
+      labels,
       datasets: [{
          label: 'Average Power Usage per month',
          data: data.map((data) => data.avg_usage),
